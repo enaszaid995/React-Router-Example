@@ -42,5 +42,8 @@
       "src": "package.json",
       "use": "@frontity/now"
     }
-  ]
+  ],
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
 }
