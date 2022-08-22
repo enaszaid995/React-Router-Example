@@ -1,6 +1,5 @@
 import { Fragment ,useEffect} from "react";
-import { Route, useParams , Link, Outlet } from "react-router-dom";
-import Comments from '../components/comments/Comments';
+import {  useParams , Link, Outlet } from "react-router-dom";
 import HighlightedQuote from '../components/quotes/HighlightedQuote';
 import useHttp from "../hooks/use-http";
 import { getSingleQuote } from "../lib/api";
